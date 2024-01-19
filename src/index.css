@@ -1,13 +1,222 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: 'Space Mono', monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+button {
+  cursor: pointer;
+}
+
+input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+:root {
+--Strong-cyan: hsl(172, 67%, 45%);
+--Very-dark-cyan: hsl(183, 100%, 15%);
+--Dark-grayish-cyan: hsl(186, 14%, 43%);
+--Grayish-cyan: hsl(184, 14%, 56%);
+--Light-grayish-cyan: hsl(185, 41%, 84%);
+--Very-light-grayish-cyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--Light-grayish-cyan);
+}
+
+.form-container > h1 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: small;
+  line-height: 45px;
+  letter-spacing: 15px;
+  color: var(--Dark-grayish-cyan);
+}
+
+input {
+  font-size: 1.5em;
+}
+
+
+
+.form-container,.form-Zone {
+  position: relative;
+  top:5em;
+}
+
+.form-Zone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.form-Zone {
+  border-radius: 25px 25px 0 0;
+  padding: 2em 2.3em;
+  width: 100%;
+  background-color: var(--White);
+}
+
+ 
+.price> img {
+  position: absolute !important;
+  top: 110px;
+  right: 410px;
+  
+}
+
+.people > img {
+  position: relative;
+  top: -65px;
+  left: 20px;
+}
+
+.price input, .people input{
+  padding-right: 10px;
+}
+
+
+
+
+
+
+.row-btn {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 17px;
+  column-gap: 30px;
+  margin: 0.7em 0;
+  align-items: center;
+}
+
+input {
+  color: var(--Very-dark-cyan);
+  text-align: end;
+}
+.people input, .price input {
+  margin: 0.7em 0;
+  padding: 0.2em;
+}
+
+
+.row-btn button,.row-btn input  {
+   width: 180px;  
+   height: 51px;
+   border-radius: 7px;
+}
+
+.row-btn button {
+  color: var(--White);
+  background-color: var(--Very-dark-cyan);
+  font-size: 1.4em;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.row-btn button:active {
+  background-color: var(--Strong-cyan);
+}
+
+
+input  {
+  border: none;
+  background-color:rgb(230, 235, 238);
+  border-radius: 7px;
+}
+
+.row-btn input:active ,
+ .row-btn input:focus {
+  outline: none;
+}
+
+.row-btn input::placeholder {
+  font-size: 0.7em;
+  text-indent: 75px;
+}
+
+span,input::placeholder, label {
+  color: var(--Dark-grayish-cyan);
+}
+
+
+
+.Price-display {
+  border-radius: 15px;
+  background-color: var(--Very-dark-cyan);
+  width: 390px;
+  height: 275px;
+  margin: 1.2em 0 3em 0;
+}
+
+.Price-display > button {
+  width: 85%;
+  margin-top: 0.9em;
+  margin-left: 1em;
+  padding:7px;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 7px;
+  color: var(--Very-dark-cyan);
+  background-color: var(--Strong-cyan);
+}
+
+.Price-display > button:hover , button:active {
+  background-color: #2fdac3;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5em;
+}
+
+.line p {
+  font-size: 0.9em;
+  color: var(--White);
+}
+
+small {
+  font-size: 0.7em;
+  color: var(--Grayish-cyan);
+}
+
+.line-price > p {
+  font-size: 1.7em;
+  color: var(--Strong-cyan);
+}
+
+
+
+@media (min-width:778px) {
+ 
+.form-Zone {
+  border-radius: 25px ;
+  padding: 0;
+  width:962px;
+  height: 438px;
+}
+
+.form-container,.form-Zone {
+  position: relative;
+  top:0em;
+}
+
+.form-Zone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+}
 }

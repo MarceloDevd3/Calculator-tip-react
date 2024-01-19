@@ -11,27 +11,24 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 100%, 68%)
+- Strong cyan: hsl(172, 67%, 45%)
 
 ### Neutral
 
-- Very Dark Blue: hsl(230, 29%, 20%)
-- Dark Grayish Blue: hsl(230, 11%, 40%)
-- Grayish Blue: hsl(231, 7%, 65%)
-- Light Grayish Blue: hsl(207, 33%, 95%)
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 18px
+- Font size (form inputs): 24px
 
-### Headings, Call-to-actions, Navigation
+### Font
 
-- Family: [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed)
-- Weights: 400, 700
-
-### Body
-
-- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-- Weights: 400
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 700

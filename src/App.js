@@ -1,23 +1,19 @@
-import Nav from './components/navbar/MenuNavBar'
-import Main from './components/main/Main'
+
+import { useState } from 'react';
+import React from 'react';
 import './App.css';
-import './breakpoint01.css'
-import './breakpoint02.css'
-
-import icon from './components/img/logo.svg'
-
+import Form from './components/Form'
 
 
 function App() {
+
+
+   
   return (
-    <div className="App">
-      <div className="main-container">
-      <Nav logo={icon}   />
-      <Main />
-      </div>
-       
+    <div className='container'>
+     <Form/> 
     </div>
-  );
+  ) 
 }
 
 export default App;

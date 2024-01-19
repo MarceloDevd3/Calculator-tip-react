@@ -1,6 +1,6 @@
-# Frontend Mentor - Project tracking intro component solution
+# Frontend Mentor - Tip calculator app solution
 
-This is a solution to the [Project tracking intro component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -24,9 +24,9 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Create the background shape using code
+- Calculate the correct tip and total cost of the bill per person
 
 ### Screenshot
 
